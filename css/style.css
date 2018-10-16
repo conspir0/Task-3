@@ -28,6 +28,34 @@ nav .nav__menu ul .menu__link--title {
   font-weight: 700;
 }
 
+main {
+  margin-top: 40px;
+  height: 100%;
+}
+
+main header {
+  background: url(../images/background/bg.png) center/cover no-repeat;
+  padding: 100px 0 200px;
+}
+
+main header .header__content {
+  text-align: center;
+}
+
+main header .header__content p {
+  line-height: 40px;
+}
+
+main header .header__content p:first-child {
+  font-weight: 700;
+}
+
+main section .section__map {
+  width: 100%;
+  margin-top: -100px;
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

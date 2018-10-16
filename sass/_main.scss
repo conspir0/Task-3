@@ -1,0 +1,32 @@
+main {
+    margin-top: 40px;
+    height: 100%;
+    
+    
+    // MAIN - header content
+    header {
+        background: url(../images/background/bg.png) center/cover no-repeat;
+        padding: 100px 0 200px;
+        
+        .header__content {
+            text-align: center;
+            p {
+                line-height: 40px;
+            }
+            p:first-child {
+                font-weight: 700;
+            }
+        }
+    }
+
+    // MAIN - section map
+    section {
+        
+        .section__map {
+            width: 100%;
+            margin-top: -100px;
+            text-align: center;
+            
+        }
+    }
+}
