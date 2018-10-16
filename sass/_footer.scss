@@ -1,0 +1,30 @@
+// FOOTER
+.footer {
+    margin-top: 140px;
+    background: url(../images/background/bg.png) center/cover no-repeat;
+    height: 100%;
+    border-top: 1px solid lighten($main-color, 40);
+    line-height: 30px;
+    
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 80px 0;
+        
+        [class*='__text'] {
+            font-size: 14px;
+        }
+    }
+}
+
+// FOOTER - logo
+.logo {
+    &__text {
+        float: left;
+    }
+    
+    &__img {
+        margin-left: 10px;
+    }
+}

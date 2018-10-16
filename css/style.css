@@ -56,6 +56,33 @@ main section .section__map {
   text-align: center;
 }
 
+.footer {
+  margin-top: 140px;
+  background: url(../images/background/bg.png) center/cover no-repeat;
+  height: 100%;
+  border-top: 1px solid #d4d4d4;
+  line-height: 30px;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 80px 0;
+}
+
+.footer__content [class*='__text'] {
+  font-size: 14px;
+}
+
+.logo__text {
+  float: left;
+}
+
+.logo__img {
+  margin-left: 10px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
