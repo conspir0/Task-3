@@ -4,6 +4,7 @@
     background: url(../images/background/bg.png) center/cover no-repeat;
     height: 100%;
     border-top: 1px solid lighten($main-color, 40);
+    color: $third-color;
     line-height: 30px;
     
     &__content {

@@ -1,0 +1,20 @@
+.tooltipster-base.tooltipster-fade {
+    border: 0;
+    background-color: inherit;
+}
+
+.tooltipster-base.tooltipster-fade .tooltipster-content {
+	line-height: 20px;
+    font-family: 'Monda';
+    font-size: 14px;
+    color: $main-color;
+    padding: 25px 30px 20px;
+    background: #fff;
+	border: 0;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.tooltipster-base.tooltipster-fade .tooltipster-arrow-top.tooltipster-arrow span{
+	border-top-color: #fff !important;
+}

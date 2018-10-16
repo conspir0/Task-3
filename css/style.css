@@ -61,6 +61,7 @@ main section .section__map {
   background: url(../images/background/bg.png) center/cover no-repeat;
   height: 100%;
   border-top: 1px solid #d4d4d4;
+  color: #373737;
   line-height: 30px;
 }
 
@@ -83,10 +84,34 @@ main section .section__map {
   margin-left: 10px;
 }
 
+.tooltipster-base.tooltipster-fade {
+  border: 0;
+  background-color: inherit;
+}
+
+.tooltipster-base.tooltipster-fade .tooltipster-content {
+  line-height: 20px;
+  font-family: 'Monda';
+  font-size: 14px;
+  color: #6e6e6e;
+  padding: 25px 30px 20px;
+  background: #fff;
+  border: 0;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.tooltipster-base.tooltipster-fade .tooltipster-arrow-top.tooltipster-arrow span {
+  border-top-color: #fff !important;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
   font-family: 'Monda', sans-serif;
   font-size: 16px;
 }
