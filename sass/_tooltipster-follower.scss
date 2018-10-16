@@ -1,0 +1,20 @@
+// Tooltipster - follower
+.tooltipster-base {
+    border: 0;
+    background-color: inherit;
+    
+    .tooltipster-box {
+        line-height: 20px;
+        font-family: 'Monda';
+        font-size: 14px;
+        padding: 25px 30px 20px;
+        background-color: #fff;
+        border: 0;
+        border-radius: 3px;
+        text-align: center;
+        
+        .tooltipster-content {
+            color: $main-color; 
+        }
+    }
+}

@@ -84,25 +84,24 @@ main section .section__map {
   margin-left: 10px;
 }
 
-.tooltipster-base.tooltipster-fade {
+.tooltipster-base {
   border: 0;
   background-color: inherit;
 }
 
-.tooltipster-base.tooltipster-fade .tooltipster-content {
+.tooltipster-base .tooltipster-box {
   line-height: 20px;
   font-family: 'Monda';
   font-size: 14px;
-  color: #6e6e6e;
   padding: 25px 30px 20px;
-  background: #fff;
+  background-color: #fff;
   border: 0;
   border-radius: 3px;
   text-align: center;
 }
 
-.tooltipster-base.tooltipster-fade .tooltipster-arrow-top.tooltipster-arrow span {
-  border-top-color: #fff !important;
+.tooltipster-base .tooltipster-box .tooltipster-content {
+  color: #6e6e6e;
 }
 
 * {
